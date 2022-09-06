@@ -1,0 +1,36 @@
+{
+  "name": "npmtest",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon --inspect -r dotenv/config server.js",
+    "start": "node server.js"
+  },
+  "author": "Karina Carrasco Torrejón",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "morgan": "^1.10.0"
+  },
+  "description": "PRACTICA 1",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KarinaCarrascoT/Practica1_CRUD_Express.git"
+  },
+  "keywords": [
+    "Node",
+    "Js",
+    "Express",
+    "CRUD",
+    "con",
+    "archivo"
+  ],
+  "bugs": {
+    "url": "https://github.com/KarinaCarrascoT/Practica1_CRUD_Express/issues"
+  },
+  "homepage": "https://github.com/KarinaCarrascoT/Practica1_CRUD_Express#readme"
+}
