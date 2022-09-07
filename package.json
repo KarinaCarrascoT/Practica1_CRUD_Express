@@ -7,30 +7,13 @@
     "dev": "nodemon --inspect -r dotenv/config server.js",
     "start": "node server.js"
   },
-  "author": "Karina Carrasco Torrejón",
+  "author": "",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.27.2",
     "dotenv": "^16.0.2",
     "express": "^4.18.1",
+    "mongoose": "^6.5.4",
     "morgan": "^1.10.0"
-  },
-  "description": "PRACTICA 1",
-  "devDependencies": {},
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/KarinaCarrascoT/Practica1_CRUD_Express.git"
-  },
-  "keywords": [
-    "Node",
-    "Js",
-    "Express",
-    "CRUD",
-    "con",
-    "archivo"
-  ],
-  "bugs": {
-    "url": "https://github.com/KarinaCarrascoT/Practica1_CRUD_Express/issues"
-  },
-  "homepage": "https://github.com/KarinaCarrascoT/Practica1_CRUD_Express#readme"
+  }
 }
